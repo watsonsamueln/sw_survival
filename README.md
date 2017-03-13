@@ -18,7 +18,7 @@ Internationalisation (I18n)
 
 ####Task 3:
 
-Change the colour of the table borders from black to blue
+Change the colour of the table borders on the Articles page from black to blue
 
 ####Task 4:
 
