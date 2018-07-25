@@ -13,6 +13,7 @@ feature "articles" do
       click_link 'New article'
 
       fill_in :article_title, with: 'A fantastic title'
+      fill_in :article_text, with: 'with some fantastic text'
       click_button 'Create Article'
 
       expect(current_path).to_not eq new_article_path
