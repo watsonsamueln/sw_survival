@@ -2,8 +2,9 @@ require 'rails_helper'
 
 feature "articles" do
   context "without existing articles" do
-    feature "index page" do
-      pending "it does not show the table of articles"
+    scenario "index page does not show articles table" do
+      visit articles_path
+      expect(page).to_not have_selector 'table'
     end
 
     scenario "create article" do
